@@ -1,0 +1,44 @@
+body {
+    background-color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    color: #33FF33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pwnagotchi {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.screen {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#face {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.stats {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.log {
+    text-align: left;
+    font-size: 0.8em;
+    max-height: 100px;
+    overflow-y: auto;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
